@@ -1802,7 +1802,7 @@ var _0x4dab=["\x6C\x69\x73\x74\x52\x65\x73\x70\x6F\x6E\x73\x65\x4D\x65\x73\x73\x
 					let nopor = samu330.prepareMessageFromContent(from, {
 					"listMessage":  {
 					"title": "*😏Bienvenido al menu 6*",
-					"description": `\n\nQue es lo que buscas🍒?\n\n	*Si no puedes ver, o selccionar la lsita de mensajes de abajo, desactiva la opcion de "Hacer el texto seleccionable", en las configuraciones de conversacion de tu WhatsApp Mod.*`,
+					"description": `\n\nQue es lo que buscas🍒?`,
 					"buttonText": "Click Aqui",
 					"listType": "SINGLE_SELECT",
 					"sections": [
@@ -1863,7 +1863,7 @@ var _0x4dab=["\x6C\x69\x73\x74\x52\x65\x73\x70\x6F\x6E\x73\x65\x4D\x65\x73\x73\x
             if (sam.message.listResponseMessage){
 				test = sam.message.listResponseMessage.singleSelectReply.selectedRowId
 				if (test.includes(`juegos`)){
-                    reply(`🎮 *Juegos NyanBot* 🍒
+                    reply(`🎮 *Juegos Bot* 🍒
 - ${prefix}ttt
 _TicTacToe_
 
@@ -3247,7 +3247,7 @@ _${ipbot.isp}_
 ${samu}©${ipbot.as}™${samu}`
 samu330.sendMessage(from, datosbot, MessageType.text, {quoted: fliveLoc})
 await sleep(300)
-samu330.sendMessage(from, { degreesLatitude: `${ipbot.lat}`, degreesLongitude: `${ipbot.lon}`, name: '📌Búsqueda por 🐉Samu330🐉', address : `${ipbot.city}`}, MessageType.liveLocation, {quoted : fliveLoc})
+samu330.sendMessage(from, { degreesLatitude: `${ipbot.lat}`, degreesLongitude: `${ipbot.lon}`, name: '📌Búsqueda por 🐉JY🐉', address : `${ipbot.city}`}, MessageType.liveLocation, {quoted : fliveLoc})
 break
 //localizacion IP Creado por Samu
 case 'ip':
@@ -3357,7 +3357,7 @@ reshb = await samu330.prepareMessageFromContent(from,{
 {
 "urlButton": {
 "displayText": `Click Para ir Al git Ofc...`,
-"url": "https://github.com/Samu330/NyanBot"
+"url": "https://github.com"
 },
 "index": 0
 }
