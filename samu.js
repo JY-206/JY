@@ -3457,7 +3457,7 @@ reply(`⏰El tiempo de *${q}* a finalizado!`)
 addFilter(from)
 break
 		
-case 'mediafire'
+case 'mediafire':
 case 'mfire':
 assistant = fs.readFileSync('./src/assistant.jpg')		
 if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
