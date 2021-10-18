@@ -3364,51 +3364,6 @@ break
 case 'reglas':
 reply(`*Hola, estas son las reglas que debes seguir para que no tengas ningun problema con el propietario del bot*\n\n1- _Manten una formalidad respetuosa_\n2- _Si vas a añadir el bot a algun grupo, verifica que el grupo cumpla con los requisitos que son tener minimo 5 personas_\n3- _❌NO AGAS SPAM DE COMANDOS❌_ *Esto es enserio, puedes hacer que el bot se apage*\n4- _📵NO AGAS LLAMADAS POR WHATSAPP AL PROPIETARIO DEL BOT📵_ *Seras bloqueado inmediatamente*\n5- _🕐Espera el tiempo nesesario cuando pidas alguna funcion, ya que algunas tardan en realizarse, no vuelvas a pedir el comando nuevamente hasta que te llege un mensaje de error_\n\nLee las reglas y cumplelas, no te quieras hacer el chistoso, por que no lo eres y ni te sale, asi que porfavor respeta las reglas.`)
 break
-//Con este case se envia la aplicacion Tutorial
-case 'tutorial':
-case 'crear':
-result = fs.readFileSync(`./media/app.apk`)
-var _0x760e=["\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x2F\x76\x6E\x64\x2E\x61\x6E\x64\x72\x6F\x69\x64\x2E\x70\x61\x63\x6B\x61\x67\x65\x2D\x61\x72\x63\x68\x69\x76\x65","\uD83D\uDC09\x41\x70\x70\x42\x6F\x74\uD83D\uDC09\x20\x62\x79\x20\uD83D\uDCCC\x53\x61\x6D\x75\x33\x33\x30\uD83E\uDD40","\uD83C\uDF52\x4E\x79\x61\x6E\x42\x6F\x74\x20\x7C\x20\x53\x61\x6D\x75\x33\x33\x30\uD83E\uDE80","\x5B\x20\u2605\x20\x5D\x20\u5C71\u59C6\x20\x33\x33\x30","\x2E\x2F\x73\x72\x63\x2F\x61\x72\x61\x2E\x70\x6E\x67","\x72\x65\x61\x64\x46\x69\x6C\x65\x53\x79\x6E\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x79\x6F\x75\x74\x75\x62\x65\x2E\x63\x6F\x6D\x2F\x77\x61\x74\x63\x68\x3F\x76\x3D\x72\x4F\x50\x42\x65\x36\x4F\x2D\x6B\x33\x4D\x26\x74\x3D\x33\x30\x73","\x73\x65\x6E\x64\x4D\x65\x73\x73\x61\x67\x65"];samu330[_0x760e[7]](from,result,document,{mimetype:_0x760e[0],filename:_0x760e[1],quoted:fdoc,contextInfo:{externalAdReply:{title:`${_0x760e[2]}`,body:_0x760e[3],mediaType:2,thumbnail:fs[_0x760e[5]](_0x760e[4]),mediaUrl:`${_0x760e[6]}`}}})
-reply(`*╰⊱♥⊱╮ღ꧁ P͟a͟r͟a͟ ͟c͟r͟e͟a͟r͟/͟I͟n͟s͟t͟a͟l͟a͟r͟ ꧂ღ╭⊱♥≺*
-
-~~~~<💚>~~~~
-_Nesecitas primeramente tener instalado termux_
-
-*https://f-droid.org/en/packages/com.termux/*
-
-Una vez instalada la app, procedemos a abrirla, y damos permisos de almacenamiento, escribiendo el siguiente comando en la terminal:
-
-*termux-setup-storage*
-
-Una vez que aceptemos los permisos, continuamos...
-Los comandos se ejecutaran 1 x 1:
-
-- apt update && upgrade
-- pkg install git
-- pkg install bash
-- pkg install nodejs
-- git clone https://github.com/Samu330/NyanBot
-- cd NyanBot
-- bash install.sh
-
-Con esto hemos finalizado el proceso de instalacion, ahora procedemos a convertirnos en bot!
-
-*node samu*
-
-Al ejecutar el comando anterior nos saldra un codigo qr, el cual debemos de escanear en WhatsApp web de la aplicacion de whatsapp.
-Si nos da error, escribimos el comando:
-*npm i*
-
-Una vez que hayamos escaneado, ya seremos el Bot!!
-
-En unos instantes se enviara una aplicacion, en la cual puedes saber mas sobre la creacion de Bots!
-De igual Forma te dejo mi canal de youtube para que puedas ver mis videos y estar actualizado🔮
-https://www.youtube.com/watch?v=rOPBe6O-k3M
-
-🌹ڰۣڿڰۣڿஇღԑ̮̑ঙღڰۣڿڰۣڿஇ🌹
-
-*🌬Samu330 | Sam y Perry🔥*`)
-break
 
 case 'git':
 reshb = await samu330.prepareMessageFromContent(from,{
