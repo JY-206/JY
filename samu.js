@@ -902,7 +902,7 @@ function _0xd037(_0x1fea26,_0x25290c){const _0x49fad6=_0x33d3();return _0xd037=f
 			}
 		}
 
-//Menus
+//menus
 const mda = `
 ╔════════════════╗
 ╠  ◈  𝙈𝙀𝙉𝙐⁪⁡ 𝘿𝙀 𝙈𝙀𝘿𝙄𝘼 ◈  ╣
@@ -1067,9 +1067,9 @@ const stc = `╭⸻⃞✫꯭𝙈꯭𝙀꯭𝙉꯭𝙐꯭✫⃞⸻╮
 │ _Stiker a gif_
 ╰─────────────╮
 ╭─────────────┴╮
-│ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li 
+ 
 ╰──────────────╯`
-const Menug = `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li                                                                            
+const Menug = `                                                                         
         🔐Hola *${pushname}*
     
 ${bodyM} ${samu}${prefix}antilink${samu}
@@ -1095,13 +1095,6 @@ _Para prohibir los links de otros grupos_
 *Para que el bot entre a tu grupo, usa el siguiente comando:*
 ${prefix}entrabot *(Link del grupo)*
         
-🚧 *El siguiente comando es para crashear los grupos!! este comando es muy peligroso :) solo administradores pueden usarlo.* 🚧
-    
-*${prefix}buggp*
-    
-_Usalo bajo tu responsabilidad!_
-    
-    
 ${bodyM} ${prefix}doxing _(Etiqueta un participante o algun mensaje)_
 ${bodyM} ${prefix}inspeccionar _(Requiere link de un grupo)_
 ${bodyM} ${prefix}nuevogrupo
