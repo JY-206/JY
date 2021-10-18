@@ -2106,7 +2106,7 @@ break
 
 case 'menuofc':
 
-redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com/samu330wabot', '*😊Seamos amigos en facebook!!* https://www.facebook.com/samu330wabot']
+redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com', '*😊Seamos amigos en facebook!!* https://www.facebook.com']
 opcion = redes[Math.floor(Math.random() * redes.length)]
 
 var num = sam.participant
@@ -2132,10 +2132,6 @@ _Tipo de usuario:_ ${tipoDeUsr}
 
 🌹ڰۣڿڰۣڿஇღԑ̮̑ঙღڰۣڿڰۣڿஇ🌹
 
-_Si quieres saber como crear este bot, usa el comando:_
-
-${prefix}crear
-
 🌹ڰۣڿڰۣڿஇღԑ̮̑ঙღڰۣڿڰۣڿஇ🌹
 
 🕐Son las *${hora}*\n\n🍃Hoy es *${week1}  ${calender1}*
@@ -2144,15 +2140,12 @@ ${opcion}
 
 ======[ *Versión 3.59* ]======
 
-*⚙ LA KEY DE LA API FUE DESHABILITADA, PERO SI LA NECECITAS PUEDES ESCRIBIRME PARA QUE TE LA COMPARTA, ESTO ES POR MOTIVOS DE SEGURIDAD, YA QUE LA ANTERIOR KEY FUE EXPUESTA Y BLOQUEADA POR ESTA RAZON. ⚙*
+*⚙ LA KEY DE LA API FUE DESHABILITADA, PERO SI LA NECECITAS PUEDES ESCRIBIRME PARA QUE TE LA COMPARTA, ESTO ES POR MOTIVOS DE SEGURIDAD. ⚙*
 _SI TIENES ALGUNA KEY QUE CREES QUE PUEDE FUNCIONAR, PUEDES AGREGARLA CON EL COMANDO:_
 
 ${prefix}api + key
 
-_Recuerda que cada vez que enciendas el bot debes establecer de nuevo la apikey!!_
-
 ===============================
-
 
 *Comandos usados hoy : ${hit_today.length}*
 
@@ -2169,8 +2162,6 @@ ${samu} ✅Modo:${samu} *ON*
 ${samu} 👥Grupo:${samu} *${groupName}*
 ${samu} 🏆Numero del Dueño wa.link/wpnz32${samu}
 
-𝗠𝗬 𝗖𝗔𝗡𝗔𝗟 𝗗𝗘 𝗬𝗢𝗨𝗧𝗨.𝗕𝗘: shrtco.de/CanalDeSamu
-
 ⍣ *BOT INFO* ⍣
 ${samu}◦ 🌐Navegador :${samu} *${samu330.browserDescription[1]}*
 ${samu}◦ 📡servidor :${samu} *${samu330.browserDescription[0]}*
@@ -2179,14 +2170,12 @@ ${samu}◦ 🚄Velocidad :${samu} *${process.uptime()}*
 ${samu}◦ 📲Sistema operativo :${samu} *${samu330.user.phone.device_manufacturer}*
 ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
 
-
 ===============================
 || _Juega con el Bot:_ *${prefix}jugar*
 || O ${prefix}ttt
 || para eliminar el juego:
 || ${prefix}delttt
 ===============================
-
 
 _Lista de MENUs_
 
