@@ -1630,7 +1630,7 @@ ${opcion}`,
 			if (sam.message.buttonsResponseMessage){
 				test = sam.message.buttonsResponseMessage.selectedButtonId
 				if (test.includes(`mnan`)){
-				sendButLocation(from, `\n➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li
+				sendButLocation(from, `\n
 🔐Hola *${pushname}* ${timeFt}
 _Tipo de usuario:_ ${tipoDeUsr}
 ┎┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -1665,7 +1665,7 @@ ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
 			if (sam.message.buttonsResponseMessage){
 				test = sam.message.buttonsResponseMessage.selectedButtonId
 				if (test.includes(`tbsm`)){
-			reply(`*Mi canal de YouTube:*\n\nhttps://www.youtube.com/channel/UCHD4T8Pfcv5PFVzsAbfAPZA`)
+			reply(`*Mi canal de YouTube:*\n\nhttps://www.youtube.com`)
 			}
 			}
 
