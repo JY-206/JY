@@ -4422,7 +4422,7 @@ exif.create(q.split('|')[0], q.split('|')[1])
 reply(`*El nombre de paquete de Stiker a cambiado a:* _${arg.split('|')[0]}\n*Y el autor a:* ${arg.split('|')[1]}`)
 break
 			
- 'scdl':
+case 'scdl':
 var url = budy.slice(6)
 var res1 = await axios.get(`https://lindow-api.herokuapp.com/api/dlsoundcloud?url=${url}&apikey=${apikey}`)
 var { title, result } = res1.data
