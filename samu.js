@@ -2328,7 +2328,7 @@ tagg.push(i.jid)
 mentions(teks, tagg, true)
 break
 
- 'audiodur':
+ case'audiodur':
 encmediam = JSON.parse(JSON.stringify(sam).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 mediam = await samu330.downloadAndSaveMediaMessage(encmediam)
 cokmatane = Number(args[0])
@@ -2348,7 +2348,7 @@ addFilter(from)
 aud = fs.readFileSync('./audio/anana.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break
- 'asen':
+case 'asen':
 addFilter(from)
 aud = fs.readFileSync('./audio/asen.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
