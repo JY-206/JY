@@ -2192,7 +2192,7 @@ addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 
- 'menu1':
+case 'menu1':
 if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊 ${timeFt}.\n*Yo soy Sam330*, Asistente de *JY*!.\n\nAl parecer no estas registrado en _*Bot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 trol = fs.readFileSync('./media/trol.mp4')
 samu330.sendMessage(from, trol, video, {mimetype: 'video/mp4', caption: `${mda}`, duration: -9999999, thumbnail: fs.readFileSync('./media/reply.png'), sendEphemeral: true, quoted:
@@ -2208,7 +2208,7 @@ addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 
- 'menu3':
+ case 'menu3':
 samu330.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 uptime = process.uptime()
@@ -2218,7 +2218,7 @@ samu330.sendMessage(from, Menug, MessageType.text, {
 quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": "➫𝑴𝒆𝒏𝒖 𝑫𝒆 𝑮𝒓𝒖𝒑𝒐𝒔🔥❣️" ,"jpegThumbnail": fs.readFileSync(`./Bot.jpg`)}}}})
 break
 
- 'menu4':
+case 'menu4':
 samu330.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 uptime = process.uptime()
@@ -2228,7 +2228,7 @@ addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 
- 'menu5':
+case 'menu5':
 samu330.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 uptime = process.uptime()
@@ -2238,7 +2238,7 @@ addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 
- 'menu7':
+ case 'menu7':
 samu330.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 uptime = process.uptime()
@@ -2248,7 +2248,7 @@ addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 
- 'menu8':
+case 'menu8':
 samu330.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 samu330.sendMessage(from, `${Menu8}`, MessageType.text, {
@@ -2257,7 +2257,7 @@ addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 		
- 'menu9':
+case 'menu9':
 if (!isRegister) return reply(mess.only.usrReg)
 reply('*Gathering information...*')
 smww = fs.readFileSync(`./media/SmWW.png`)
@@ -2274,7 +2274,7 @@ samu330.sendMessage(from, smww, image, {caption: `${menu9}`, quoted: { key: {
 break
 
 
- 'gracias':
+case 'gracias':
 var _0x56da=['367342lxQRgg','relayWAMessage','52224EUhLvZ','readFileSync','3184312811796096','2ZQhqXh','37BvfGXn','1QpYCgS','233589MYSAPS','296046BsnUGu','./src/fake.jpg','11131Xmdsqw','🤭 *Tranqui, no es nada* 😉','41623ZFgisamu330','4lYyqCf','INQUIRY','prepareMessageFromContent','1081869VYGFAG','1QmBtcR'];var _0x3cb2d7=_0x44c4;function _0x44c4(_0x538587,_0x3dc520){return _0x44c4=function(_0x56dab7,_0x44c4ad){_0x56dab7=_0x56dab7-0x11b;var _0x4c2ec7=_0x56da[_0x56dab7];return _0x4c2ec7;},_0x44c4(_0x538587,_0x3dc520);}(function(_0x1c8e57,_0x5dcd2a){var _0x2b3ad5=_0x44c4;while(!![]){try{var _0x1e1a08=parseInt(_0x2b3ad5(0x11b))*parseInt(_0x2b3ad5(0x127))+parseInt(_0x2b3ad5(0x12c))+parseInt(_0x2b3ad5(0x122))+parseInt(_0x2b3ad5(0x11e))*parseInt(_0x2b3ad5(0x121))+parseInt(_0x2b3ad5(0x126))*-parseInt(_0x2b3ad5(0x12b))+parseInt(_0x2b3ad5(0x124))*parseInt(_0x2b3ad5(0x11f))+-parseInt(_0x2b3ad5(0x120))*parseInt(_0x2b3ad5(0x12a));if(_0x1e1a08===_0x5dcd2a)break;else _0x1c8e57['push'](_0x1c8e57['shift']());}catch(_0x52a340){_0x1c8e57['push'](_0x1c8e57['shift']());}}}(_0x56da,0x99469),res=await samu330[_0x3cb2d7(0x129)](from,{'orderMessage':{'orderId':_0x3cb2d7(0x11d),'thumbnail':fs[_0x3cb2d7(0x11c)](_0x3cb2d7(0x123)),'itemCount':999999999,'status':_0x3cb2d7(0x128),'surface':'CATALOG','message':_0x3cb2d7(0x125),'orderTitle':''},'contextInfo':{'forwardingScore':0x3,'isForwarded':!![]}},{'quoted':sam,'contextInfo':{}}),samu330[_0x3cb2d7(0x12d)](res));
 break
 
