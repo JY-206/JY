@@ -89,6 +89,7 @@ const legion = JSON.parse(fs.readFileSync('./src/Leg.json'))
 const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const config = JSON.parse(fs.readFileSync("./config.json"))
 const owner = config.owner
+const fake = ''
 const mods = config.mods
 var public = config.public
 ////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
