@@ -2363,7 +2363,7 @@ addFilter(from)
 aud = fs.readFileSync('./audio/asen.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break
- caseb'hentai':
+ case'hentai':
 addFilter(from)
 aud = fs.readFileSync('./audio/hentai.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
