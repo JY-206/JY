@@ -4823,7 +4823,7 @@ await sleep(4000)
 samu330.modifyChat(_.jid, ChatModification.delete)
 }
 break
- 'vaciar':
+case 'vaciar':
 if (!itsMe) return reply('Este comando solo puede ser usado por *JY* ⚙')
 reply('*Este chat a sido vaciado*')
 console.log('succes delete chat = ' + from)
