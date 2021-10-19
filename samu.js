@@ -3692,7 +3692,7 @@ logo = `https://api.zeks.xyz/api/wolflogo?apikey=apivinz&text1=${texto1}&text2=$
 sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
 break
 		
- 'flores':
+ case'flores':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/flowertext?apikey=apivinz&text=${q}`
