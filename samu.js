@@ -4621,7 +4621,8 @@ sendFileFromUrl(xv.mp4, video, {quoted: fvid, caption: `*🍒JY | Bot💠*`})
 addFilter(from)
 break
 
- 'lucky':
+case 'slot':
+ case 'lucky':
 a = '🍇'
 b = '🍎'
 c = '🍓'
