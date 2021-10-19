@@ -1482,9 +1482,6 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 			}
 
 
-			}
-
-
 			switch (commandstik) {
 	
 				 "paxuDk3LoZENYGIbqq0jI7+xHaEaDfGaWGtVJt/Vyzg=":
