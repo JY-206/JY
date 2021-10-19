@@ -2070,7 +2070,7 @@ samu330.sendMessage(from, fs.readFileSync(`./temp/menu.webp`), sticker, {quoted:
 reply(`*Si tienes problemas con el nuevo menu, usa el anterior, el nuevo comando para el menu anterior es: ${prefix}menuofc*`)
 break
 
- 'menuofc':
+case 'menuofc':
 
 redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com', '*😊Seamos amigos en facebook!!* https://www.facebook.com']
 opcion = redes[Math.floor(Math.random() * redes.length)]
@@ -5388,7 +5388,7 @@ mentioned = sam.message.extendedTextMessage.contextInfo.mentionedJid
 await samu330.blockUser (mentioned, "remove")
 }
 break
- 'salir':
+ case'salir':
 if (!isOwner && !itsMe) return await reply('Este comando solo puede ser usado por *JY* ⚙')
 if (!isGroup) return await reply(mess.only.group)
 reply(`Saldre de este grupo: ${groupName} en 3 segundos`).then(async() => {
@@ -5396,7 +5396,7 @@ await help.sleep(3000)
 await samu330.groupLeave(from)
 })
 break
- 'entrabot':
+ case 'entrabot':
 linkgp = args.join(' ')
 if (!linkgp) return reply('Y el link del grupo... onta!?')
 samunum = '56994858890@swahtsapp.net'		
