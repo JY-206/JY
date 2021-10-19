@@ -2488,12 +2488,12 @@ addFilter(from)
 aud = fs.readFileSync('./audio/suspenso.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break
- 'talcho':
+ case'talcho':
 addFilter(from)
 aud = fs.readFileSync('./audio/talcho.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break
- 'tobec':
+ case'tobec':
 addFilter(from)
 aud = fs.readFileSync('./audio/tobec.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
