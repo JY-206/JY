@@ -4952,10 +4952,11 @@ var target = ghh.split("|")[1];
 var bot = ghh.split("|")[2];
 samu330.sendMessage(from, `${bot}`, MessageType.text, {quoted: { key: { fromMe: false, participant: nomorr+'@s.whatsapp.net', ...(from ? { remoteJid: from } : {}) }, message: { conversation: `${target}` }}})
 break
- 'fordward':
+ case 'fordward':
 samu330.sendMessage(from, `${budy.slice(10)}`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
 
+case 'tagall':
 case 'todos':
 samu330.updatePresence(from, Presence.composing)
 if (!isGroup) return reply(mess.only.group)
