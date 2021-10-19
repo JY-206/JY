@@ -329,11 +329,11 @@ samu330.on('chat-update', async(sam) => {
         comm = ""
         } else {
         cmd = true
-        comm = body.slice(1).trim().split(" ").shift().toLower()
+        comm = body.slice(1).trim().split(" ").shift().toLowerCase()
         }
         } else {
         cmd = false
-        comm = body.trim().split(" ").shift().toLower()
+        comm = body.trim().split(" ").shift().toLowerCase()
         }
 	    
 	////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
