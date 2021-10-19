@@ -206,6 +206,8 @@ if (!welkom.includes(anu.jid)) return
 try {
 const mdata = await samu330.groupMetadata(anu.jid)
 console.log(anu)
+if (anu.action == 'add') {               
+num = anu.participants[0]
 
 /*if (num.startsWith('1')) return samu330.groupRemove(mdata.id, [num])
 if (num.startsWith('994')) return samu330.groupRemove(mdata.id, [num])
