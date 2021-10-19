@@ -3654,7 +3654,7 @@ reply(`*Doxeo de ${mentionUser} echo por JY✅*
 break
 		
 		//»»————-　★　————-««\\
-//˚ ༘✶ ⋆｡˚ ⁀➷  🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥
+//˚ ༘✶ ⋆｡˚ ⁀➷  🔥 𝙅𝙔 🔥
 		
 case 'neon':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
@@ -3667,21 +3667,21 @@ case 'matrix':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/matrix?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break		
 		
 case 'break':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/breakwall?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break		
 		
 case 'dropwater':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/dropwater?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'lobo':
@@ -3689,49 +3689,49 @@ if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
 logo = `https://api.zeks.xyz/api/wolflogo?apikey=apivinz&text1=${texto1}&text2=${texto2}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
  case'flores':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/flowertext?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'cross':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/crosslogo?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'seda':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/silktext?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'fire':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/flametext?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'glow':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/glowtext?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'smoke':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/smoketext?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'pubg':
@@ -3739,84 +3739,84 @@ if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
 logo = `https://api.zeks.xyz/api/pubglogo?apikey=apivinz&text1=${texto1}&text2=${texto2}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'cielo':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/skytext?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 	
 case 'cs':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/cslogo?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'ligth':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/lithgtext?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'navidad':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/crismes?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'nieve':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/snowwrite?apikey=apivinz&text1=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'tfire':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/tfire?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'playa':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/sandw?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'ff':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/epep?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'goldbutton':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/gplaybutton?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break		
 	
 case 'silverbutton':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/splaybutton?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case '3d':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/text3dbox?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break		
 		
 case 'avengers':
@@ -3824,14 +3824,14 @@ if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
 logo = `https://api.zeks.xyz/api/logoaveng?apikey=apivinz&text1=${texto1}&text2=${texto2}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case '3d2':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/text3d?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'ph':
@@ -3839,14 +3839,14 @@ if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
 logo = `https://api.zeks.xyz/api/phlogo?apikey=apivinz&text1=${texto1}&text2=${texto2}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break		
 		
 case 'blackpink':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/logobp?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'marvel':
@@ -3854,21 +3854,21 @@ if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
 logo = `https://api.zeks.xyz/api/marvellogo?apikey=apivinz&text1=${texto1}&text2=${texto2}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break	
 		
 case 'hojas':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/leavest?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'tligth':
 if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${q}!*`)		
 logo = `https://api.zeks.xyz/api/tlight?apikey=apivinz&text=${q}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'gtext':
@@ -3876,7 +3876,7 @@ if (!q) return reply('*Y el texto para crear el logo donde esta?*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO:* ${prefix + command} *texto1|texto2*\n\n_Separa el texto 1 del texto 2 con el simbolo "|"_`)
 reply(`*Porfavor espera un momento, tu logo ${command} esta siendo creado con el texto ${texto1 + texto2}!*`)		
 logo = `https://api.zeks.xyz/api/gtext?apikey=apivinz&text1=${texto1}&text2=${texto2}`
-sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝘓𝘰𝘨𝘰𝘴 𝘉𝘺 𝘚𝘢𝘮𝘶𝟥𝟥𝟢 🔥*', sendEphemeral: true})
+sendFileFromUrl(logo, image, {quoted: fimg, caption: '*🔥 𝙅𝙔 🔥*', sendEphemeral: true})
 break
 		
 case 'spam':
