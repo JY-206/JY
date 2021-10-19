@@ -4111,7 +4111,7 @@ break
 
 
 		
- 'rapido':
+case 'rapido':
 addFilter(from)
 if (!isQuotedAudio) return reply('Etiqueta un audio!')
 reply(mess.wait)
