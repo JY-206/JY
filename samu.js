@@ -5836,7 +5836,7 @@ reply('Se nececita una foto!')
 				
  break
 
- '3000years':
+ case '3000years':
 try {
 	ppimg = await samu330.getProfilePicture(`${sender.split('@')[0]}@c.us`)
 } catch {
