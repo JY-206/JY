@@ -1488,7 +1488,8 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 			} 
 	
 			switch (commandstik) {
-	case "SxxV2zKhKYR4MUXj6ax5MKZto/u5ArlO1S+GokdA6ks=":
+	
+				case "SxxV2zKhKYR4MUXj6ax5MKZto/u5ArlO1S+GokdA6ks=":
 					let luck = samu330.prepareMessageFromContent(from, {
 						"listMessage":  {
 							"title": "*THIS IS A TEST!!*",
