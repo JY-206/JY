@@ -2060,9 +2060,9 @@ gracias =
 	//Zona de Comandos🛵
 switch (command) {
 
- 'help':
- 'menu':
- 'comandos':
+ case'help':
+case 'menu':
+case 'comandos':
 reply(`*EL MENU CAMBIO, AHORA PARA PEDIR EL MENU USA EL STICKER QUE SE ENVIARA A CONTINUACION.*
 
 _☣NO RENOMBRES NI CAMBIES NADA DEL STICKER!_`)
