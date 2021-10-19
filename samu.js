@@ -1481,6 +1481,41 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 			}                     
 			}
 
+			if (resbutton == 'Cristobal Colon') {
+				reply(`😂WTF!!\nJAJAJA Como va a ser Cristobal jajajaja, te hace falta estudiar Matematicas-_-`)
+			} else if (resbutton == 'Eugenio Derbez') {
+				reply(`PUES CLAROO!!!😏✏✅`)
+			} 
+	
+			switch (commandstik) {
+	
+				 "SxxV2zKhKYR4MUXj6ax5MKZto/u5ArlO1S+GokdA6ks=":
+					let luck = samu330.prepareMessageFromContent(from, {
+						"listMessage":  {
+							"title": "*THIS IS A TEST!!*",
+							"description": `Responde la siguiente pregunta:\n\n¿Quien descubrio America🗺?`,
+							"buttonText": "Selecciona tu respuesta",
+							"listType": "SINGLE_SELECT",
+							"sections": [
+								{
+									"rows": [
+										{
+											"title": `Cristobal Colon`,
+											"rowId": ""
+										},
+										{
+											"title": "Eugenio Derbez",
+											"rowId": ""
+										}
+									]
+								}
+							]
+						}
+					}, {})
+				samu330.relayWAMessage(luck, {waitForAck: true})
+				break
+			}
+
 
 			switch (commandstik) {
 	
