@@ -1656,7 +1656,7 @@ ${samu}◦ 🪀version de${samu} *WhatsApp* : *${samu330.user.phone.wa_version}*
 			if (sam.message.buttonsResponseMessage){
 				test = sam.message.buttonsResponseMessage.selectedButtonId
 				if (test.includes(`m1`)){
-			reply(`No ves el Mensaje de lista?\n\n🥏 Probablemente el Bot este registrado en un WhatsApp Bussines, este tipo de mensajes son incompatibles con ese WhatsApp.\n\n*Ves la lista, pero no puedes abrir las secciones?*\n\n🔍 Esto pasa por usar un WhatsApp Mod, para arreglar este problema, sige estas instrucciones:\n\n- Dirijete a los ajustes o mods de tu WhatsApp.\n- Busca y selecciona el apartado de "Pantalla de Conversacion".\n- Entra a la Seccion de "burbujas y ticks".\n- Dirigete hacia la parte de abajo, encontraras un Switch con el nombre "Hacer el Texto Seleccionable", desactiva esa funcion.\n\n🧾 *Una vez ya desactivada esa funcion, podras ver y usar el Mensaje de Lista.*`)
+			reply(`*Ves la lista, pero no puedes abrir las secciones?*\n\n🔍 Esto pasa por usar un WhatsApp Mod, para arreglar este problema, sige estas instrucciones:\n\n- Dirijete a los ajustes o mods de tu WhatsApp.\n- Busca y selecciona el apartado de "Pantalla de Conversacion".\n- Entra a la Seccion de "burbujas y ticks".\n- Dirigete hacia la parte de abajo, encontraras un Switch con el nombre "Hacer el Texto Seleccionable", desactiva esa funcion.\n\n🧾 *Una vez ya desactivada esa funcion, podras ver y usar el Mensaje de Lista.*`)
 			}
 			}
 
