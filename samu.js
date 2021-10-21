@@ -3506,59 +3506,40 @@ addLevelingLevel(sender, 5)
 break
 
 case 'play':
-	assistant = fs.readFileSync('./src/assistant.jpg')		
-	if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊 ${timeFt}.\n*Yo soy Sam330*, Asistente de *JY*!.\n\nAl parecer no estas registrado en _*Bot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
-	if (!q) return reply('*Que audio quieres descargar?.....*')
-	let plist = await yts(q)
-	sendFileFromUrl(plist.all[0].image, image, {quoted: sam, caption: '_*Si no ves la lista de descarga de tu audio, prueba usando el comando play2*_'})
 
-	let play2v = samu330.prepareMessageFromContent(from,{
-		"listMessage": {
-				  "title": "🌬 *DESCARGAS DE AUDIO!!*",
-				  "description": `\n✍🏻Informacion de su Audio.\n\n*°Subido hace* ${plist.all[0].ago}\n\n*°Vistas :* ${plist.all[0].views}\n\n*°Duracion :* ${plist.all[0].timestamp}\n\n*°Canal :* ${plist.all[0].author.name}\n\n*°Link del Canal :* ${plist.all[0].author.url}`,
-				  "buttonText": "SELECCIONA UN FORMATO DE DESCARGA",
-				  "listType": "SINGLE_SELECT",
-				  "sections": [
-					{ "title": `[ ${plist.all[0].title} ]`,
-					  "rows": [
-						{
-						  "title": '🎧Descarga el Audio Original',
-						  "description": '- Audio en mp3 sin modificacion de duracion -',
-						  "rowId": `${plist.all[0].title}@list`
-						},
-						{
-						  "title": '🎙Descarga el Audio Original en Nota de Voz',
-						  "description": '- Audio en nota de voz sin modificacion de duracion -',
-						  "rowId": `${plist.all[0].title}@list1`
-						},
-                        {
-						  "title": '🎧Descarga el Audio Original con duracion cambiada',
-						  "description": '- Audio en mp3 con modificacion de duracion -',
-						  "rowId": `${plist.all[0].title}@list2`
-						},
-						{
-						  "title": '🎙Descarga el Audio Original en Nota de Voz con duracion cambiada',
-						  "description": '- Audio en nota de voz con modificacion de duracion -',
-						  "rowId": `${plist.all[0].title}@list3`
-						}
-					  ]
-					},
-                    {
-                        "title": `[ Audio con Efecto ]`,
-                        "rows": [
-                          {
-                            "title": '💎Descarga el Audio Con efecto SlowMotion',
-                            "description": '- Audio en nota de voz con efecto SlowMotion -',
-                            "rowId": `${plist.all[0].title}@list4`
-                          }
-                        ]    
-                    }
-				  ]
-				}
-	  }, {quoted: sam})
-	  samu330.relayWAMessage(play2v)
+		if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊 ${timeFt}.\n*Yo soy Sam330*, Asistente de *JY*!.\n\nAl parecer no estas registrado en _*Bot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+    if (args.length < 1) return reply(`✳️ *Ingresa el título de una canción*\n\n📌Ejemplo *${prefix + command}* Lil Peep broken smile`)
+  reply(wait())
+           teks = args.join(' ')
+if (!teks.endsWith("-doc")){
+res1 = await yts(q).catch(e => {	
+reply('_[ ! ] NO SE PUDO ENCONTRAR LO QUE BUSCABA_')
+})	
+                  try {
+                  	
+                    yta(mulaikah)
+                    .then((res) => {
+                        const { dl_link, thumb, title, filesizeF, filesize } = res
+                        axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
+                        .then(async (a) => {
+                        if (Number(filesize) >= 100000) return reply('✳️ El archivo pesa más de 100 MB! no puedo enviar')
+                        const captions = `
+let thumbInfo = ` [ *${res1.all[0].title}* ]
+*°Subido hace* ${res1.all[0].ago}
+*°Vistas :* ${res1.all[0].views}
+*°Duracion :* ${res1.all[0].timestamp}
+*°Canal :* ${res1.all[0].author.name}
+*°Link del Canal :* ${res1.all[0].author.url}
 
-break
+*_El archivo se esta enviando....._*`
+                      
+                        sendMediaURL(from, thumb, captions)
+                        await sendMediaURL(from, dl_link).catch(() => reply('error'))
+                             })                
+                        })
+                        } catch (err) {
+                        reply(mess.error.api) }
+                   break
 
 		
 case 'playvid':		
