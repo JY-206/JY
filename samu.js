@@ -3516,7 +3516,7 @@ case 'play':
 	let play2v = samu330.prepareMessageFromContent(from,{
 		"listMessage": {
 				  "title": "🌬 *DESCARGAS DE AUDIO!!*",
-				  "description": `\n✍🏻Informacion de su Audio.\n\n*let thumbInfo = ` [ *${res1.all[0].title}* ]*\n\n*°Subido hace* ${plist.all[0].ago}\n\n*°Vistas :* ${plist.all[0].views}\n\n*°Duracion :* ${plist.all[0].timestamp}\n\n*°Canal :* ${plist.all[0].author.name}\n\n*°Link del Canal :* ${plist.all[0].author.url}`,
+				  "description": `\n✍🏻Informacion de su Audio.\n\n*°Subido hace* ${plist.all[0].ago}\n\n*°Vistas :* ${plist.all[0].views}\n\n*°Duracion :* ${plist.all[0].timestamp}\n\n*°Canal :* ${plist.all[0].author.name}\n\n*°Link del Canal :* ${plist.all[0].author.url}`,
 				  "buttonText": "SELECCIONA UN FORMATO DE DESCARGA",
 				  "listType": "SINGLE_SELECT",
 				  "sections": [
