@@ -3477,7 +3477,7 @@ break
 case 'play2':
 assistant = fs.readFileSync('./src/assistant.jpg')		
 if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊 ${timeFt}.\n*Yo soy Sam330*, Asistente de *JY*!.\n\nAl parecer no estas registrado en _*Bot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": false}})
-
+reply(`*Espere un momento, su audio ${q} se esta descargando...*`)
 teks = args.join(' ')
 if (!teks.endsWith("-doc")){
 res1 = await yts(q).catch(e => {	
@@ -3516,7 +3516,7 @@ case 'play':
 	let play2v = samu330.prepareMessageFromContent(from,{
 		"listMessage": {
 				  "title": "🌬 *DESCARGAS DE AUDIO!!*",
-				  "description": `\n✍🏻Informacion de su Audio.\n\n*°Subido hace* ${plist.all[0].ago}\n\n*°Vistas :* ${plist.all[0].views}\n\n*°Duracion :* ${plist.all[0].timestamp}\n\n*°Canal :* ${plist.all[0].author.name}\n\n*°Link del Canal :* ${plist.all[0].author.url}`,
+				  "description": `\n✍🏻Informacion de su Audio.\n\n*let thumbInfo = ` [ *${res1.all[0].title}* ]*\n\n*°Subido hace* ${plist.all[0].ago}\n\n*°Vistas :* ${plist.all[0].views}\n\n*°Duracion :* ${plist.all[0].timestamp}\n\n*°Canal :* ${plist.all[0].author.name}\n\n*°Link del Canal :* ${plist.all[0].author.url}`,
 				  "buttonText": "SELECCIONA UN FORMATO DE DESCARGA",
 				  "listType": "SINGLE_SELECT",
 				  "sections": [
