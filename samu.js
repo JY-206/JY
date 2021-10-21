@@ -3478,7 +3478,6 @@ case 'play2':
 assistant = fs.readFileSync('./src/assistant.jpg')		
 if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊 ${timeFt}.\n*Yo soy Sam330*, Asistente de *JY*!.\n\nAl parecer no estas registrado en _*Bot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 reply(`*Espere un momento, su audio ${q} se esta descargando...*`)
-teks = args.join(' ')
 if (!teks.endsWith("-doc")){
 res1 = await yts(q).catch(e => {	
 reply('_[ ! ] NO SE PUDO ENCONTRAR LO QUE BUSCABA_')
