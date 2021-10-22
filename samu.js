@@ -4317,7 +4317,7 @@ reply('El problema ha sido informado al propietario del BOT, informe falso o bro
 break
 			
 case 'reg':
-if (isRegister) return reply('*Tu cuenta ya estaba registrada*')
+if (isRegister) return reply('*Y registrado...*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO DE REGISTRO:* ${prefix}reg *nombre|edad*`)
 const nombre = q.substring(0, q.indexOf('|') - 0)
 const edad = q.substring(q.lastIndexOf('|') + 1)
@@ -4330,10 +4330,7 @@ if (edad > 50) return reply(`Uuuu, yastas viejito:c\n*Lo siento pero no puedo re
 if (edad < 10) return reply(`Eres menor de 10 años, no puedo hacer un registro tuyo lo siento.\n*Si quieres muestrame una autorizacion de tus padres diciendo que puedes pasar tiempo usando este bot para que pueda aceptarte:d*`)
 try {
 ppimg = await samu330.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
-} catch {
-
-ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
-}
+} 
 veri = sender                                                
 addRegisteredUser(sender, nombre, edad, time, serialUser)
 try {
