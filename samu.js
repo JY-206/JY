@@ -4317,7 +4317,7 @@ reply('El problema ha sido informado al propietario del BOT, informe falso o bro
 break
 			
 case 'reg':
-if (isRegister) return reply('*Y registrado...*')
+if (isRegister) return reply('*Ya registrado...*')
 if (!q.includes('|')) return  reply(`*PORFAVOR ESCRIBE BIEN EL FORMATO DE REGISTRO:* ${prefix}reg *nombre|edad*`)
 const nombre = q.substring(0, q.indexOf('|') - 0)
 const edad = q.substring(q.lastIndexOf('|') + 1)
@@ -4328,11 +4328,17 @@ if(isNaN(edad)) return await reply('*La edad es un numero🙄*!!')
 if (nombre.length >= 50) return reply(`*Tu nombre es acaso un tren?*\nUn nombre no puede tener mas de *50* letras`)
 if (edad > 50) return reply(`Uuuu, yastas viejito:c\n*Lo siento pero no puedo registrarte si eres mayor de 50 años*`)
 if (edad < 10) return reply(`Eres menor de 10 años, no puedo hacer un registro tuyo lo siento.\n*Si quieres muestrame una autorizacion de tus padres diciendo que puedes pasar tiempo usando este bot para que pueda aceptarte:d*`)
+try {
+ppimg = await samu330.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
+} catch {
 
+ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
+}
 veri = sender                                                
 addRegisteredUser(sender, nombre, edad, time, serialUser)
-
-samu330.sendMessage(MessageTyp, { quoted: sam, caption: `*「 SU REGISTRO FUE UN EXITO😉 」*\n\n *◦ Nombre : ${nombre}*\n*◦ Numero : wa.me/${sender.split("@")[0]}*\n*◦ Edad : ${edad}*\n*◦ Hora De Registro : ${time}*\n*◦ SN : ${serialUser}*\n\n *📋Su registro fue todo un exito*\n\n*Para Continuar Usando a Bot Escriba el siguiente comando: ${prefix}menuofc*`})
+try {
+exec(`magick './src/reg.jpg' -gravity west -fill '#00FF00' -font './src/font-gue.ttf' -size 1280x710 -pointsize 90 -interline-spacing 7.5 -annotate +460-45 '${nombre}' -pointsize 50 -annotate +460+200 '${serialUser}' '${ppimg}' -resize %[fx:t?u.w*0.2:u.w]x%[fx:?u.h*0.2:u.h] -gravity center -geometry -430+70 -composite 'regsm.jpg'`)
+samu330.sendMessage(from, fs.readFileSync('./regsm.jpg'), MessageType.image, { quoted: sam, caption: `*「 SU REGISTRO FUE UN EXITO😉 」*\n\n *◦ Nombre : ${nombre}*\n*◦ Numero : wa.me/${sender.split("@")[0]}*\n*◦ Edad : ${edad}*\n*◦ Hora De Registro : ${time}*\n*◦ SN : ${serialUser}*\n\n *📋Su registro fue todo un exito*\n\n*Para Continuar Usando a Bot Escriba el siguiente comando: ${prefix}menuofc*`})
 } catch {
 reply(`*「 SU REGISTRO FUE UN EXITO😉 」*\n\n *◦ Nombre : ${nombre}*\n*◦ Numero : wa.me/${sender.split("@")[0]}*\n*◦ Edad : ${edad}*\n*◦ Hora De Registro : ${time}*\n*◦ SN : ${serialUser}*\n\n *📋Su registro fue todo un exito*\n\n*Para Continuar Usando a Bot Escriba el siguiente comando: ${prefix}menuofc*`)
 }
