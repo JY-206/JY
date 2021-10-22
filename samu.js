@@ -4342,7 +4342,13 @@ samu330.sendMessage(from, fs.readFileSync('./regsm.jpg'), MessageType.image, { q
 
 addFilter(from)
 break
+} catch {
 
+
+
+reply(`*「 SU REGISTRO FUE UN EXITO😉 」*\n\n *◦ Nombre : ${nombre}*\n*◦ Numero : wa.me/${sender.split("@")[0]}*\n*◦ Edad : ${edad}*\n*◦ Hora De Registro : ${time}*\n*◦ SN : ${serialUser}*\n\n *📋Su registro fue todo un exito*\n\n*Para Continuar Usando a Bot Escriba el siguiente comando: ${prefix}menuofc*`)
+
+}
 case 'owner':
 case 'creador':
 await wa.sendContact(from, '56994858890', "🥇JY🛺💨")
