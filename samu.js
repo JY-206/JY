@@ -4328,8 +4328,7 @@ if(isNaN(edad)) return await reply('*La edad es un numero🙄*!!')
 if (nombre.length >= 50) return reply(`*Tu nombre es acaso un tren?*\nUn nombre no puede tener mas de *50* letras`)
 if (edad > 50) return reply(`Uuuu, yastas viejito:c\n*Lo siento pero no puedo registrarte si eres mayor de 50 años*`)
 if (edad < 10) return reply(`Eres menor de 10 años, no puedo hacer un registro tuyo lo siento.\n*Si quieres muestrame una autorizacion de tus padres diciendo que puedes pasar tiempo usando este bot para que pueda aceptarte:d*`)
-try {
-ppimg = await samu330.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)}
+
 veri = sender                                                
 addRegisteredUser(sender, nombre, edad, time, serialUser)
 
