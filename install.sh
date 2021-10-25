@@ -40,8 +40,7 @@ echo -e '\033[0m\033[1;32m
  | .__/   \__,_|  \__, |  \__,_|  \___|  \__|  \___| |___/
  |_|                 |_|                                  
 \033[0m'
-apt-get update
-apt-get upgrade
+Pkg install ffmpeg
 echo -e '\033[0m\033[1;36m
   ___                 _             _                       _          
  |_ _|  _ __    ___  | |_    __ _  | |   __ _   _ __     __| |   ___   
@@ -114,7 +113,7 @@ cd usr
 cd etc
 rm -r bash.bashrc
 cd
-cd NyanBot
+cd JY
 mv bash.bashrc $HOME/../usr/etc
 echo -e '\033[0m\033[1;33m
    ____                         _                                        
