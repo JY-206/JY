@@ -40,7 +40,7 @@ echo -e '\033[0m\033[1;32m
  | .__/   \__,_|  \__, |  \__,_|  \___|  \__|  \___| |___/
  |_|                 |_|                                  
 \033[0m'
-Pkg install ffmpeg
+clear
 echo -e '\033[0m\033[1;36m
   ___                 _             _                       _          
  |_ _|  _ __    ___  | |_    __ _  | |   __ _   _ __     __| |   ___   
@@ -61,7 +61,7 @@ apt-get install wget -y
 apt-get install imagemagick -y
 apt-get install tesseract -y
 npm i node-tesseract-ocr
-npm i @adiwajshing/baileys@3.4.1
+npm i @adiwajshing/baileys
 echo -e '\033[0m\033[1;31m
   ___                 _             _                       _         
  |_ _|  _ __    ___  | |_    __ _  | |   __ _   _ __     __| |   ___  
