@@ -101,8 +101,8 @@ const sleep = async (ms) => {
 }
 ////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
 api = 'CONTACTAME PARA OBTENER LA API'
-fak = 'samu3300'
-prefix = '.'
+fak = 'samu330'
+prefix = '/'
 apikey = 'LindowApi'
 hit_today = []
 blocked = []
@@ -1517,7 +1517,9 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 			}
 
 
-case 'menu2':
+switch (commandstik) {
+	
+				case "SxxV2zKhKYR4MUXj6ax5MKZto/u5ArlO1S+GokdA6ks=":
 					redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com', '*😊Seamos amigos en facebook!!* https://www.facebook.com']
 					opcion = redes[Math.floor(Math.random() * redes.length)]
 
