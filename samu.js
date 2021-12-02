@@ -2566,8 +2566,9 @@ addFilter(from)
 aud = fs.readFileSync('./audio/ñañañi.ogg') 
 samu330.sendMessage(from, aud, audio, {quoted: faud, mimetype: 'audio/mp4', ptt: true, duration: -999999, sendEphemeral: true}) 
 break
-case 'addFilter (from)
-reply (`JY`)
+case 'audios'
+addFilter(from)
+reply(`JY`)
 break
 		
  case'top5':
