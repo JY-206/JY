@@ -89,7 +89,7 @@ const legion = JSON.parse(fs.readFileSync('./src/Leg.json'))
 const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const config = JSON.parse(fs.readFileSync("./config.json"))
 const owner = config.owner
-const fake = ''
+const fake = 'null'
 const mods = config.mods
 var public = config.public
 ////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
@@ -101,7 +101,7 @@ const sleep = async (ms) => {
 }
 ////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
 api = 'CONTACTAME PARA OBTENER LA API'
-fak = 'samu330'
+fak = 'null'
 prefix = '/'
 apikey = 'LindowApi'
 hit_today = []
