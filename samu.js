@@ -2070,7 +2070,7 @@ break
 
 case 'menuofc':
 
-redes = ['*Sigeme y te sigo en instagram!* https://www.instagram.com', '*😊Seamos amigos en facebook!!* https://www.facebook.com']
+redes = ['*Sigeme y te sigo en instagram!* https://www.instagram/jy_briggitt]
 opcion = redes[Math.floor(Math.random() * redes.length)]
 
 var num = sam.participant
