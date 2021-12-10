@@ -102,7 +102,7 @@ const sleep = async (ms) => {
 ////////////▶ 𝐒𝐚𝐦𝐮𝟑𝟑𝟎 | 𝐒𝐚𝐦 𝐲 𝐏𝐞𝐫𝐫𝐲
 api = 'CONTACTAME PARA OBTENER LA API'
 fak = 'null'
-prefix = '.'
+prefix = '/'
 apikey = 'LindowApi'
 hit_today = []
 blocked = []
