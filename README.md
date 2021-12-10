@@ -26,7 +26,7 @@
 ## Inicia la Instalacion:
 
 ```bash
-> cd NyanBot
+> cd JY
 > bash install.sh
 ```
 
