@@ -40,6 +40,10 @@
 ```
 
 ### No soy el creador (solo edite y aaregle algunos fallos)...
+ <p>
+<a href="http://wa.me/56994858890" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
+<p>
+
 ### CREADOR: <p align="center">
 <a href="https://github.com/Samu330"><img title="Author" src="https://img.shields.io/badge/Samu-330-orange?style=for-the-badge&logo=github"></a>
 </p>
