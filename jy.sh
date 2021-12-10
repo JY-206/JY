@@ -1,6 +1,6 @@
 while :
 do
-      node index.js
+      npm start
       sleep 1
       
 done
