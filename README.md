@@ -34,4 +34,7 @@
 ```bash
 > npm start
 ```
-
+### Para un inicio seguro y sin caídas usa:
+```bash
+> sh jy.sh
+```
