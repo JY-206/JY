@@ -42,6 +42,7 @@
 ### No soy el creador (solo edite y aaregle algunos fallos)...
  <p>
 <a href="http://wa.me/56994858890" target="blank"><img src="https://img.shields.io/badge/Whatsapp-30302f?style=flat&logo=whatsapp" /></a>
+<q>
 <a href="https://github.com/JYBriggitt"><img title="Author" src="https://img.shields.io/badge/JY-Briggitt-blue?style=for-the-badge&logo=github"></a>
 </p>
 
