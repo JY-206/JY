@@ -43,7 +43,7 @@
     "brainly-scraper": "^1.0.3"
   },
   "scripts": {
-    "start": "sh jy.sh"
+    "start": "node samu.js"
   },
   "author": "Sam y Perry",
   "homepage": "https://github.com/Samu330/NyanBot/readme"
